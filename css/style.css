@@ -40,6 +40,24 @@
     color: aliceblue;
     display: block;
 }
+.head-content nav #userinfo{
+    display: flex;
+    flex-direction: row;
+   
+}
+.head-content nav #userinfo #user ,.head-content nav #userinfo #logout{
+    color: rgb(148, 148, 223);
+    margin: 30px;
+
+}
+.head-content nav #userinfo i{
+    margin-left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: rgb(91, 173, 91);
+}
+
 .sec1{
     width: 100%;
     height: 100vh;
