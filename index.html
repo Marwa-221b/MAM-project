@@ -11,27 +11,35 @@
         <script src="js/script.js"></script>
         <header class="header"> <!--header begin-->
             <div class="head-content">
-                <a href="index.html" id="h-logo"><img src="images/logo2.png" alt="logo"></a>
+                <a href="index.html" id="h-logo"><img src="images/logo.png" alt="logo"></a>
+                <span id="span1">Furni</span>
                 
                 <nav>
+                    <ul class="elements">
+                        <li id="fli">Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
                     <ul id="links">
                         <li><a href="login.html" id="log">Sign in</a></li>
                         <li><a href="signup.html" id="sign">Sign up</a></li>
                     </ul>
                     
                     <ul id="userinfo">
-                        <li> <a href="#" id="user"></a></li>
+                        <li> <i class="fa-solid fa-user"></i><a href="#" id="user"></a></li>
                         <li class="shopping-cart">
                             <i class="cart fa-solid fa-cart-shopping"></i>
-                            <span class="badge"></span> 
+                            <!-- <span class="badge"></span> 
                              <div class="carts-products">
-                                <!-- <div></div>
-                                <a href="cartsproduct.html" class="pro-view">View all products</a> -->
+                                 <div></div>
+                                <a href="cartsproduct.html" class="pro-view">View all products</a> 
                 
-                            </div>
+                            </div> -->
                         </li>
 
-                        <li>
+                        <li id="lastli">
                             <a href="#" id="logout">logout</a>
                         </li>
                        
@@ -40,6 +48,21 @@
             </div>
           
         </header> <!--header end-->
+        <section class="section1">
+            <div class="f-images">
+                <img class="img-f"src="images/couch 1.png" alt="couch">
+                <img class="dot-img" src="images/Dot.png" alt="dot">
+            </div>
+            <div class="f-content">
+                <h1>Modern interior</h1>
+                <h2>Design studio</h2>
+            </div>
+            <div class="buttons">
+                <button id="f-btn">Shop Now</button>
+                <button id="f1-btn">Explore</button>
+            </div>
+            
+        </section>
 
         <script src="js/user.js"></script>
     </body>
