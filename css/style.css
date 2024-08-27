@@ -34,6 +34,7 @@
     height: 120px;
     margin-left: 90px;
     padding-bottom: 15px;
+  
 
 }
 
@@ -42,7 +43,7 @@
     font-size: 30px;
     font-weight: bold;
     font-family: sans-serif;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     margin-top: 35px;
     position: fixed;
 
@@ -159,6 +160,20 @@
 
 .head-content nav #userinfo li {
     margin: 5px;
+}
+.header .badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    color: #ddd;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    top: -10px;
+    right: -10px;
+    /* font-size: 15px; */
+    display: none;
 }
 
 /* ///////////////////////////////////sec1//////////////////////////////// */
@@ -618,131 +633,111 @@
 
 }
 
-/* //////////////////////////////////////////////sec4/////////////////////////////// */
-.sec4 {
-    margin-inline: 4% 7%;
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    z-index: -1;
-}
+/* ////////////////////////////////////section4//////////////////////////////////////// */
 
-.sec4 .img_container4 {
+.sec4{
+    margin: 100px 150px 200px 80px;
+}
+.sec4 .img_container4{
     position: relative;
     width: 1500px;
-
-
-}
-
-.sec4 .images4 {
+    }
+    
+.sec4 .images4{
     border-radius: 7px;
-    transition-duration: 1s;
+
 }
 
-.sec4 #dot4 {
-    z-index: -2;
+.sec4 #dot4{
+    z-index: -1;
     width: 200px;
     height: 150px;
+    }
+.sec4 #img1{
+    width: 400px;
+    height: 450px; 
+} 
+.sec4 #img2{
+    width: 170px;
+    height: 150px;
+    margin-left: 510px;
+    margin-top: -100px;
+} 
+
+.sec4 #img3{
+   
+     z-index: 1;
+    width: 230px;
+    height: 300px; 
+    margin:80px 440px;
 
 }
 
-.sec4 #img1 {
+.sec4 #a{
     position: absolute;
     top: 50px;
-    left: 110px;
-    width: 400px;
-    height: 500px;
+   left: 70px;
+    
 }
-
-.sec4 #img2 {
-    width: 200px;
-    height: 180px;
-    /* margin-left: 540px; */
-    margin-top: -100px;
-    position: absolute;
-
-    top: 143px;
-    left: 540px;
-
-
-}
-
-.sec4 #img3 {
-
-    z-index: 1;
-    width: 280px;
-    height: 330px;
-    margin: 100px 450px;
+.sec4 #b{
     position: absolute;
 }
+.sec4 #c{
+    position: absolute;
+    
+}
 
 
-
-
-.sec4 .text-container4 {
+.sec4 .text-container4{
     height: 90vh;
-    width: 400p;
-    /* margin-top: 50px; */
-    margin-top: -70px;
+    width: 400px;
     margin-left: 840px;
+    margin-top: -70px;
+    
 }
 
-.sec4 .title4 {
+.sec4 .title4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sec4 .txt4 {
-    font-size: 16px;
+.sec4 .txt4{
+    font-size: 12px;
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sec4 .donec4 {
+.sec4 .donec4{
     margin-top: 40px;
-    display: grid;
-    grid-template-columns: auto auto;
-
+    
 }
-
-.sec4 .sub-div {
+.sec4 .sub-div{
     float: left;
     margin: 10px;
 }
-
-.sec4 #first {
+.sec4 #first{
+    margin-left: 0px;
+}
+.sec4 #third{
     margin-left: 0px;
 }
 
-.sec4 #third {
-    margin-left: 0px;
-}
-
-.sec4 .btn4 {
+.sec4 .btn4{
     width: 100px;
-    min-height: 50px;
-    background-color: rgb(14, 13, 13);
+    height: 30px;
+    background-color: rgb(65, 59, 59);
     color: white;
     border: none;
     border-radius: 30px;
     margin-top: 40px;
 }
 
-.sec4 .btn4:hover {
-    background-color: #333;
-}
-
-.sec4 .images4:hover {
-    transform: scale(1.2);
-    z-index: 5;
-
-}
-
 /* ///////////////////////////////////////////////SEC5////////////////////////////// */
 .section5 {
+    display:flex;
     display: grid;
     display: inline-grid;
     margin-inline: 10%;
+    margin-left: 10px;
 }
 
 .section5 .img1 {
@@ -877,12 +872,95 @@
 
 
 }
+/* ////////////////////////////////////sec7////////////////////////////////////// */
+.section7
+{
+    width: 100%;
+    background-color:rgb(245, 245, 245);
+    height: 650px;
+}
 
+.section7 .s7
+{
+    text-align: left;
+    margin-left: 75px;
+    font-size: 23px;
+}
+
+.section7 .link7
+{
+    /* text-align: right; */
+    padding-left: 1095px;
+    font-size: 23px;
+    color: black;
+}
+
+.section7 .blogImage
+{
+    width: 250px;
+    height: 380px;
+    border-radius: 7px;
+    float: left;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.section7 .image
+{
+    width: 250px;
+    height: 280px;
+    border-radius: 7px;
+}
+
+.container7{
+    padding: 0px 120px;
+}
+.section7 .div2 ,.section7 .div1,.section7 .div3
+{    
+    margin: 50px;
+}
+
+.section7 .blogImage:hover
+{
+    background-color: rgb(230, 227, 227);
+}
+
+.section7 .pr5
+{   
+    width: 250px;
+    height: 70px;
+}
+
+/* 
+.pr1
+{
+    margin-left: 75px;
+}
+
+.pr2
+{
+    margin-left: 168px;
+}
+
+.pr3
+{
+    margin-left: 168px;
+}
+
+.blog
+{
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+} */
 /* //////////////////////////////////////sec8////////////////////////////////////// */
 .sec8 {
     background-color: white;
     overflow: visible;
     padding-top: 5%;
+    height: 50vh;
 
 }
 
@@ -1028,19 +1106,19 @@
     /* .head-content #h-logo img{
          margin-left: -140px;
      } */
-    .f-images {
+     .section1 .f-images {
 
         margin-left: -300Px;
     }
 
-    .img-f {
+    .section1 .img-f {
 
         width: 200px;
         height: 200px;
 
     }
 
-    .f-images .dot-img {
+    .section1 .f-images .dot-img {
         width: 100px;
         height: 100px;
 
@@ -1056,10 +1134,6 @@
         margin-left: -120px;
     }
 
-    .header #span1 {
-        margin-left: -20px;
-    }
-
     .head-content nav #userinfo {
         display: flex;
         flex-direction: column;
@@ -1069,7 +1143,13 @@
         background-color: rgb(29, 65, 29);
         margin-top: -40px;
     }
+    .header #h-logo{
+       margin-left: 70px;
 
+    }
+    .header #h-logo #span1{
+        margin-left: 1px;
+    }
     .header nav .col .hov::after {
 
         height: 80%;
@@ -1083,22 +1163,178 @@
         height: 80%;
         width: 15%;
     }
+    .sec2 .container .product-section{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        height: 100vh;
+    }
+    .sec2 .container .product-section .product-card{
+      max-width: 50px;
+      max-height: 100px;
+
+    }
+.sec2 .container .product-section .product-card img{
+    width: 40px;
+    height: 40px;
+}
+.sec2 .product-card h5 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -35px;
+    
+}
+
+.sec2 .product-card p {
+    margin-left: -35px;
+    color: #333;
+    font-weight: bold;
+}
+.sec4 .img_container4{
+    margin: auto;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 300px;
+
+}
+
+.sec4 .img4-div{
+    position: static;
+    float: left;
+    margin: auto;
+
+}
+
+.sec4 #img1{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+
+}
+.sec4 #dot4{
+
+    margin-left: 460px;
+    width: 250px;
+}
+.sec4 #img2{
+    margin-top: 0px;
+    margin-left: 460px;
+    z-index: 0;
+    width: 250px;
+    height: 350px;
+
+}
+
+.sec4 #img3{
+    width: 300px;
+    height: 400px;
+    z-index: 0;
+    margin-top: -100px;
+    margin-left: 740px;
+}
+.sec4 .text-container4{
+
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+    width: 80%;
+}
+.sec4 .title4{
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 30%;
+    width: 1000px;
+    font-size: 34px;
+
+}
+.sec4 #main4{
+    position: absolute;
+    margin-top: -620px;
+    margin-left:17%;
+    width: 1200px;
+    text-align: center;
+
+}
+.sec4 .sub-div{
+    margin-left: 70px;
+    width:400px;
+}
+.sec4 #first{
+    margin-left: 10%;
+}
+.sec4 #third{
+    margin-left: 10%;
+}
+.sec4 .donec4{
+    margin-left: 40%;
+    text-align: center;
+    width: 1200px;
+    margin-top: 100px;
+
+ }
+.sec4 .txt4{
+    font-size: 24px;
+}
 
 
+.sec4 .btn4{
+   position: absolute;
+    margin-top: 190px;
+    margin-left: -610px;
+    font-size: 20px;
+    width: 125px;
+    height: 50px;
+}
+.section5 #div1{
+    margin-left: -35px;
+}
+.section5 #div2{
+  margin-left: -430px;
+  margin-top: 150px;
+}
+.section5 #div3{
+    margin-left: -830px;
+    margin-top: 150px;
+  }
+  .sec8 .d3 img{
+    width: 75px;
+    height: 75px;
+    margin-right: -300px;
+    /* margin-left: 500px; */
+
+  }
+  .sec8 h2{
+    margin-top: 100px;
+  }
+  .sec8 .p8{
+   font-size: 10px;
+  }
+  .sec8 .column a{
+    font-size: 10px;
+  }
+  .section7{
+    height: 300vh;
+  }
+  .section7 .container7{
+    display: flex;
+    flex-direction: column;
+    margin-left: -35px;
+   
+  }
+  .section7 .link7{
+    margin-right: -300px;
+
+  }
+  
 }
 
 
 
 /* //////////////////////////////////////////////media query/////////////////////////////// */
-@media(max-width:1000px) {
-    .header #span1 {
-        margin-left: 5px;
-    }
 
 
-}
-
-@media(min-width:100px) and (max-width:700px) {
+/* @media(min-width:100px) and (max-width:700px) {
     .f-images {
 
         margin-left: -300Px;
@@ -1152,7 +1388,7 @@
     .sec4 .img4-div {
         position: static;
         float: left;
-        /* margin: auto; */
+        margin: auto;
 
     }
 
@@ -1161,19 +1397,19 @@
         width: 400px;
         height: 500px;
         left: 0px;
-        /* margin-left: 50px; */
+        margin-left: 50px;
 
     }
 
     .sec4 #dot4 {
 
-        /* margin-left: 460px;  */
+        margin-left: 460px; 
         width: 250px;
     }
 
     .sec4 #img2 {
         margin-top: 0px;
-        /*margin-left: 460px; */
+        margin-left: 460px;
         z-index: 1;
         width: 250px;
         height: 250px;
@@ -1186,7 +1422,7 @@
         width: 300px;
         height: 400px;
         z-index: 0;
-        /* margin-top: -100px; */
+        margin-top: -100px;
         margin-left: 100px;
         left: 370px;
 
@@ -1204,7 +1440,7 @@
         position: absolute;
         margin-top: -670px;
         margin-inline: 6%;
-        /* margin-left: 30%; */
+        margin-left: 30%;
         width: 800px;
         font-size: 34px;
 
@@ -1220,20 +1456,20 @@
     }
 
     .sec4 .sub-div {
-        /* margin-left: 70px; */
+        margin-left: 70px;
         width: 400px;
     }
 
-    /* .sec4 #first{
+    .sec4 #first{
         margin-left: 10%;
     }
     .sec4 #third{
         margin-left: 10%;
-    } */
+    }
     .sec4 .donec4 {
-        /* margin-left: 40%; */
+        margin-left: 40%;
         text-align: center;
-        /* width: 1200px; */
+        width: 1200px;
         margin-top: 100px;
         margin-inline: 6%;
 
@@ -1247,9 +1483,9 @@
     .sec4 .btn4 {
         position: absolute;
         margin-top: 190px;
-        /* margin-left: -610px; */
+         margin-left: -610px; 
         font-size: 20px;
         width: 125px;
         height: 50px;
     }
-}
+} */

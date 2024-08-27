@@ -33,3 +33,8 @@ function showalert() {
         document.getElementById('alertPlaceholder').innerHTML = alertHTML;
 }
 showalert()
+var badge=document.querySelector(".badge")
+var btnpl=document.querySelector(".explore-button")
+btnpl.addEventListener("click",function(){
+   badge.style.display="block"
+})
