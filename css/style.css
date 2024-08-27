@@ -33,7 +33,7 @@ body {
 .head-content #h-logo img {
     width: 120px;
     height: 120px;
-    margin-left: 900px;
+    margin-left: 90px;
     padding-bottom: 15px;
 
 }
@@ -59,6 +59,7 @@ body {
 
 .head-content nav {
     margin-top: -20px;
+    
  }
 
  .header nav .col{
@@ -101,7 +102,7 @@ transform-origin: left;
 
 }
 .header nav #links{
-    margin-left: px;
+    /* margin-left: px; */
     /* background-color: rgb(170, 165, 165); */
     margin-right: 20px;
     /* border-radius: 15px; */
@@ -584,7 +585,7 @@ position: absolute;
 }
 .sec4 .img_container4{
     position: relative;
-}
+    }
     
 .sec4 .images4{
     border-radius: 7px;
@@ -594,7 +595,7 @@ position: absolute;
     z-index: -1;
     width: 200px;
     height: 150px;
-}
+    }
 .sec4 #img1{
     width: 450px;
     height: 500px; 
@@ -604,9 +605,8 @@ position: absolute;
     height: 180px;
     margin-left: 540px;
     margin-top: -100px;
-
-
 } 
+
 .sec4 #img3{
    
      z-index: 1;
@@ -634,7 +634,7 @@ position: absolute;
 .sec4 .text-container4{
     height: 90vh;
     width: 35%;
-    margin-left: 60%;
+    margin-left: 700px;
     margin-top: -70px;
 }
 
@@ -673,6 +673,75 @@ position: absolute;
     margin-top: 40px;
 }
 
+/* ///////////////////////////////////////////////SEC5////////////////////////////// */
+.section5
+{
+    display: grid; 
+    display:inline-grid;
+} 
+.section5 .img1
+{
+    margin-left: 80px;
+    margin-top: 75px;
+    margin-bottom: -165px;
+    background-image: url(../images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position:0px 14px;
+}
+.section5 .p1
+{
+    color: rgb(177, 165, 165);
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.section5 #t1
+{
+    color: black;
+}
+.section5 .img2
+{
+    margin-left: 470px;
+    margin-top: -142px; 
+    margin-bottom: -170px; 
+    background-image: url(../images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position:4px 25px ;
+}
+.section5 .p2
+{
+    color: rgb(177, 165, 165);
+    margin-top: 68px;
+    margin-left: 600px;
+}
+.section5 #t4
+{
+    color: black;
+}
+.section5 .img3
+{
+    margin-left: 875px;
+    margin-top: -137px;
+    background-image: url(../images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position:0px ;
+}
+.section5 .A
+{
+    color: rgb(177, 165, 165);
+    margin-top: -110px;
+    margin-left: 1000px;
+}
+.section5 #i1
+{
+    color: black;
+}
+.section5 .r
+ {
+    color:rgb(98, 97, 97);
+    margin-top: 100px; 
+    margin-bottom: -200px;
+ }
 /* //////////////////////////////////////////////section6/////////////////////////////// */
 .section6 {
     margin: 90px 100px 30px 100px;
@@ -788,69 +857,68 @@ position: absolute;
     display: flex;
 }
 @media(max-width:1000px){
-   .header #span1{
-        margin-left: 5px;
-    }
-   
-   
-}
-@media(min-width:100px) and (max-width:700px){
-    /* .head-content #h-logo img{
-        margin-left: -140px;
-    } */
-    .f-images{
-       
-        margin-left: -300Px;
-    }
-    .img-f{
-       
-        width: 200px;
-        height: 200px;
-       
-    }
-    
-    .f-images .dot-img{
-        width: 100px;
-        height: 100px;
-
-       margin-top: 100px;
-       margin-left: 550px;
-    }
-
-    .section1 .f-content{
-        margin-top: 300px;
-    }
-    .header nav{
-        margin-left: -120px;
-    }
-   
     .header #span1{
-        margin-left: -20px;
-    }
-    .head-content nav #userinfo {
-     display: flex;
-     flex-direction: column;
-    }
-    .header nav .col{
-        background-color: rgb(29, 65, 29)  ;
-        margin-top: -40px;
-    }
-    .header nav .col  .hov::after{
-       
-        height: 80%;
-        width: 15%;
-        padding: 5px;
-       
-        }
-        .header nav .col .hov::before{
-            padding: 5px;
-            height: 80%;
-        width: 15%;
-        }
+         margin-left: 5px;
+     }
     
     
-}
-
+ }
+ @media(min-width:100px) and (max-width:700px){
+     /* .head-content #h-logo img{
+         margin-left: -140px;
+     } */
+     .f-images{
+        
+         margin-left: -300Px;
+     }
+     .img-f{
+        
+         width: 200px;
+         height: 200px;
+        
+     }
+     
+     .f-images .dot-img{
+         width: 100px;
+         height: 100px;
+ 
+        margin-top: 100px;
+        margin-left: 550px;
+     }
+ 
+     .section1 .f-content{
+         margin-top: 300px;
+     }
+     .header nav{
+         margin-left: -120px;
+     }
+    
+     .header #span1{
+         margin-left: -20px;
+     }
+     .head-content nav #userinfo {
+      display: flex;
+      flex-direction: column;
+     }
+     .header nav .col{
+         background-color: rgb(29, 65, 29)  ;
+         margin-top: -40px;
+     }
+     .header nav .col  .hov::after{
+        
+         height: 80%;
+         width: 15%;
+         padding: 5px;
+        
+    }
+         .header nav .col .hov::before{
+             padding: 5px;
+             height: 80%;
+         width: 15%;
+   }
+     
+     
+ }
 
 
 
@@ -900,4 +968,140 @@ position: absolute;
     .header #span1 {
         margin-left: -50px;
     }
+}
+@media (min-width:100px) and (max-width:1000px) {
+    
+    
+    .sec4 .img_container4{
+        margin: auto;
+        width: 80%;
+        margin-left: 30%;
+        margin-top: 300px;
+        
+    }
+    
+    .sec4 .img4-div{
+        position: static;
+        float: left;
+        margin: auto;
+
+    }
+    .sec4 #img1{
+        width: 300px;
+        height: 400px;
+        margin-left: 50px;
+        
+    }
+    .sec4 #dot4{
+
+        margin-left: 460px; 
+        width: 250px;
+    }
+    .sec4 #img2{
+        margin-top: 0px;
+        margin-left: 460px;
+        z-index: 0;
+        width: 250px;
+        height: 350px;
+    
+    }
+    
+    .sec4 #img3{
+        width: 300px;
+        height: 400px;
+        z-index: 0;
+        margin-top: -100px;
+        margin-left: 740px;
+    }
+    .sec4 .text-container4{
+        
+        margin: auto;
+        margin-top: 300px;
+        text-align: center;
+        width: 80%;
+    }
+    .sec4 .title4{
+        position: absolute; 
+        margin-top: -670px;
+        margin-left: 30%;
+        width: 1000px;
+        font-size: 34px;
+    
+    }
+    .sec4 #main4{
+        position: absolute;
+        margin-top: -620px;
+        margin-left:17%;
+        width: 1200px;
+        text-align: center;
+
+    }
+    .sec4 .sub-div{
+        margin-left: 70px;
+        width:400px;
+    }
+    .sec4 #first{
+        margin-left: 10%;
+    }
+    .sec4 #third{
+        margin-left: 10%;
+    }
+    .sec4 .donec4{
+        margin-left: 40%;
+        text-align: center;
+        width: 1200px;
+        margin-top: 100px;
+
+     }
+    .sec4 .txt4{
+        font-size: 24px;
+    }
+
+    
+   .sec4 .btn4{
+       position: absolute;
+        margin-top: 190px;
+        margin-left: -610px;
+        font-size: 20px;
+        width: 125px;
+        height: 50px;
+    }
+
+}
+@media (min-width:1000px) and (max-width:1250px) {
+    .sec4 #img1{
+        width: 350px;
+        height: 400px;
+
+    }
+    .sec4 #img2{
+        width: 170px;
+        height: 150px;
+        margin-left: 450px;
+    }
+    .sec4 #img3{
+        width: 240px;
+        height: 270px;
+        margin-left: 370px;
+        margin-top: 7%;
+    }
+    .sec4 .text-container4{
+        margin-left:700px;
+        
+    }
+    .sec4 .txt4{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    .sec4 .btn4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .sec4 .donec4{
+        width: 400px;
+    }
+    .sec4 .sub-div{
+        margin-top: -10px;
+    }
+
 }
