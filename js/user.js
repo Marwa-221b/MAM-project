@@ -15,3 +15,21 @@ logbtn.addEventListener("click",function(){
         window.location="login.html"
     },1500)
 })
+
+///////////////////sec4
+function myfunction(){
+    var element= document.querySelector(".sec2")
+       element.classList.toggle("dark-mode");
+}
+
+function showalert() {
+        var alertHTML = 
+            '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+            'Product added to the cart Successfully :D' +
+            '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
+            '<span aria-hidden="true">&times;</span>' +
+            '</button>' +
+            '</div>';
+        document.getElementById('alertPlaceholder').innerHTML = alertHTML;
+}
+showalert()
