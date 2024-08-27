@@ -4,4 +4,4 @@ let observer = new IntersectionObserver((entries, observer) => {
         observer.unobserve(entry.target);
     });
 });
-document.querySelectorAll('.hidden').forEach((el) => observer.observe(el));
+document.querySelectorAll('.hidd en').forEach((el) => observer.observe(el));
