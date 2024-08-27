@@ -1,7 +1,7 @@
 let observer = new IntersectionObserver((entries, observer) => {
     entries.filter(e => e.isIntersecting).forEach(entry => {
-        entry.target.classList.add("show");
+        entry.target.classList.add("shows");
         observer.unobserve(entry.target);
     });
 });
-document.querySelectorAll('.hidd en').forEach((el) => observer.observe(el));
+document.querySelectorAll('.hidden').forEach((el) => observer.observe(el));
