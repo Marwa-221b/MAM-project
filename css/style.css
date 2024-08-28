@@ -8,6 +8,9 @@
     z-index: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 
 
@@ -487,6 +490,7 @@
 /* //////////////////////////////////////////////sec3/////////////////////////////// */
 .section3 .grid_items3 {
     border-radius: 20px;
+    padding-left: 5px;
     transition: box-shadow 1s;
 }
 
@@ -526,7 +530,7 @@
 .section3 .grid_text {
     font-size: 18px;
     color: gray;
-    padding: 0px 10px 10px 50px;
+    padding-right: 0px;
 
 }
 
@@ -542,7 +546,7 @@
     grid-area: head;
     font-size: 18px;
     color: gray;
-    padding: 90px 50px 0px 50px;
+    padding: 90px 50px 0px 5px;
 
 }
 
@@ -577,13 +581,14 @@
 .section3 .img_container3 {
     grid-area: image;
     position: relative;
-    min-width: 35vw;
-    height: 90vh;
+    width: 40vw;
+    min-height: 80vh;
 
 }
 
 .section3 .why_chu_img {
     height: 87%;
+    width:82%;
     z-index: 0;
     position: absolute;
     top: 100px;
@@ -603,9 +608,9 @@
 .section3 .grid_container_sec3 {
     display: grid;
     grid-template-areas:
-        "head head image"
-        "transp shop image"
-        "supp hass image";
+        "head head image image"
+        "transp shop image image"
+        "supp hass image image";
     margin: 30px 100px 30px 100px;
     gap: 40px;
 }
@@ -614,7 +619,7 @@
     display: block;
     color: black;
     font-size: x-large;
-    padding: 10px 10px 0px 50px;
+    padding: 10px 10px 0px 5px;
     position: relative;
     z-index: 1;
 
@@ -623,7 +628,7 @@
 .section3 .grey_circle {
     position: absolute;
     top: 20px;
-    left: 65px;
+    left: 20px;
     z-index: -1;
     border-radius: 50%;
     height: 25px;
@@ -779,11 +784,14 @@
 }
 
 .section5 .img3 {
-    margin-left: 875px;
+    margin-left: 30px;
     margin-top: -137px;
     background-image: url(../images/Rectangle\ 10.png);
     background-repeat: no-repeat;
     background-position: 0px;
+}
+.sec4 #c{
+    width: 500px;
 }
 
 .section5 .A {
@@ -877,7 +885,7 @@
 {
     width: 100%;
     background-color:rgb(245, 245, 245);
-    height: 650px;
+    min-height: 650px;
 }
 
 .section7 .s7
@@ -888,9 +896,9 @@
 }
 
 .section7 .link7
-{
-    /* text-align: right; */
-    padding-left: 1095px;
+{   display: block;
+    text-align: end; 
+     padding-right: 10px; 
     font-size: 23px;
     color: black;
 }
@@ -913,7 +921,11 @@
 }
 
 .container7{
-    padding: 0px 120px;
+    /* padding: 0px 120px; */
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .section7 .div2 ,.section7 .div1,.section7 .div3
 {    
@@ -966,6 +978,7 @@
 
 .allsec8 {
     margin-inline: 15%;
+    position: relative;
 }
 
 .sec8 .outer {
@@ -974,20 +987,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  
 
 }
 
 
 .sec8 .topper {
     text-transform: capitalize;
-
-
+    position: absolute;
+    top:-35px;
+    z-index: 4;
 
 
 }
 
 .sec8 .inner {
     position: relative;
+    z-index: 1;
 }
 
 .sec8 input {
@@ -997,8 +1013,10 @@
     margin-top: 10px;
     margin-right: 20px;
     border-radius: 5px;
-    border: 2px solid rgb(147, 151, 156);
+    border: 2px solid rgb(122, 157, 123);
     padding-inline: 5px;
+   
+    
 }
 
 /* .sec8 button img{
@@ -1028,7 +1046,7 @@
 }
 
 .sec8 .d1 {
-    color: rgb(105, 105, 105);
+    color: rgb(6, 88, 31);
     text-transform: capitalize;
     line-height: 1.8;
     display: flex;
@@ -1047,7 +1065,9 @@
 .sec8 .d3 img {
     position: absolute;
     right: 50%;
-    top: -100%;
+    top: -70%;
+    z-index: -4;
+  
 }
 
 .sec8 .d1 .table {
@@ -1065,12 +1085,12 @@
 }
 
 .sec8 a:link {
-    color: #555;
+    color: #326744;
 
 }
 
 .sec8 a:visited {
-    color: rgb(168, 178, 168);
+    color: rgb(3, 130, 81);
 }
 
 .sec8 a:hover {
@@ -1191,6 +1211,36 @@
     color: #333;
     font-weight: bold;
 }
+
+.section3 .grid_container_sec3{
+    grid-template-areas:
+        "head head "
+        "image image" 
+        "transp shop"
+        "supp hass";
+        gap:10px;
+        margin-inline:50px;
+       justify-content: center;
+}
+.section3 .img_container3{
+    width:60vw;
+    min-height: 60vh;
+   
+}
+.section3 #head {
+    padding-right: 0px;
+}
+.section3 .why_chu_img{
+    top: 0px;
+    left:70px;
+}
+.section3 .dot-img{
+    top: 100%;
+    
+}
+
+
+/* 
 .sec4 .img_container4{
     margin: auto;
     width: 80%;
@@ -1285,6 +1335,112 @@
     font-size: 20px;
     width: 125px;
     height: 50px;
+} */
+.sec4{
+    margin-left: 0px;
+}
+
+
+.sec4 .img_container4{
+    
+    width: 80%;
+    margin-top: 300px;
+    
+
+}
+
+
+.sec4 .img4-div{
+    width: 100%;
+    
+}
+.sec4 #dot4{
+
+    margin-left: 40%;
+    width: 100%;
+}
+
+
+.sec4 #img1{
+    width: 80%;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 490px;
+
+}
+
+.sec4 #img2{
+    
+    width: 80%;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: 620px;
+    }
+
+.sec4 #img3{
+   
+    width: 80%;
+    height:200px;
+    margin-left: 110px;
+    margin-top: 870px;
+    
+
+}
+.sec4 .text-container4{
+
+    margin-left: 50px;
+    margin-top: 300px;
+    width: 50%;
+}
+.sec4 .title4{
+    position: absolute;
+    top:295%;
+    margin-left: 15%;
+    width: 60%;
+    font-size: 14px;
+
+}
+
+.sec4 #main4{
+    position: absolute;
+    top: 310%;
+    width: 70%;
+    text-align: center;
+
+}
+.sec4 .sub-div{
+    position: absolute;
+   
+    width:100%;
+}
+.sec4 #second{
+    top: 40%;
+    margin-left: 130%;
+
+}
+.sec4 #third{
+
+    margin-top: 200px;
+}
+.sec4 #fourth{
+    margin-left: 130%;
+    margin-top: 200px;
+
+
+}
+.sec4 .donec4{
+    position: relative;
+    margin-top: -320px;
+
+ }
+.sec4 .txt4{
+    font-size: 12px;
+}
+
+
+.sec4 .btn4{
+  
+    display: none;
 }
 .section5 #div1{
     margin-left: -35px;
@@ -1297,13 +1453,21 @@
     margin-left: -830px;
     margin-top: 150px;
   }
+  
   .sec8 .d3 img{
-    width: 75px;
-    height: 75px;
-    margin-right: -300px;
+    /* width: 75px;
+    height: 75px; */
+    /* margin-right: -300px; */
     /* margin-left: 500px; */
-
+    position:absolute;
+    top:30px;
+    
+    opacity:0.6;
+    z-index: -1;
+   
   }
+
+  
   .sec8 h2{
     margin-top: 100px;
   }
@@ -1313,19 +1477,25 @@
   .sec8 .column a{
     font-size: 10px;
   }
-  .section7{
-    height: 300vh;
-  }
+  /*//////////////////////*/
+
+  /* .section7{
+    height: 300vh; 
+     margin-inline: 100px; 
+  } */
   .section7 .container7{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; */
     margin-left: -35px;
    
   }
-  .section7 .link7{
-    margin-right: -300px;
+  /* .section7 .link7{
+     margin-right: -300px;
+    text-align: right;
 
-  }
+  } */
   
 }
 
